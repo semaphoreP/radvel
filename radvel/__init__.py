@@ -8,7 +8,6 @@ os.environ['OMP_NUM_THREADS'] = '1'
 
 # pre-import the big packages to avoid some warnings
 import emcee     # producing ABC warning
-import nbsphinx  # producing ABC warning
 
 from .model import *
 from .likelihood import *
